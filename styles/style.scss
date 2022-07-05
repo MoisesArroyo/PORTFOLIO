@@ -327,6 +327,8 @@ section{
         height: 1px;
         background-color: var(--color-grey-5);
         transform: translateX(-50%);
+        display:block;
+        position: relative;
     }
 }
 
@@ -400,8 +402,7 @@ section{
             object-fit: cover;
             border-radius: 15px;
         }
-        
-        #hover-items {
+        .hover-items {
             width: 100%;
             height: 100%;
             background-color: var(--color-secondary);
