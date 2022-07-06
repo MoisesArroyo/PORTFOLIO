@@ -767,6 +767,9 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
+  .portfolios .portfolio-item {
+    left: 12%;
+  }
 
   .blogs {
     grid-template-columns: 1fr;
@@ -839,21 +842,42 @@ section {
   }
 
   .portfolios {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .blogs {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .main-title h2 {
     font-size: 4rem;
   }
   .main-title h2 span {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .main-title h2 .big-text {
-    font-size: 4.5rem;
+    font-size: 2.7rem;
+  }
+
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+
+  .contact-content-con .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .contact-content-con .right-contact {
+    margin-bottom: 6rem;
   }
 }
 @media screen and (max-width: 970px) {
@@ -908,7 +932,7 @@ section {
     background-color: var(--color-grey-5);
   }
   .controlls .control {
-    margin: 1rem 0.7rem !important;
+    margin: 1rem 0.3rem !important;
   }
 }
 @media screen and (max-width: 700px) {
